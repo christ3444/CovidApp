@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">CovidApp</string>
+    <string name="about_covid">La COVID-19 (Coronavirus Disease 2019 ou Maladie à Coronavirus 2019) est la maladie infectieuse causée par un nouveau coronavirus découvert en Chine en décembre 2019 avec l\’apparition de la flambée dans la ville</string>
+    <string name="toux">Les patients Covid+ présentent une toux sèche parfois grasse.
+        "Quand tu vois que tu tousses à t\'en étouffer tu as besoin d'aide respiratoire" Pourtant, dans la majorité des cas, cette toux s\'
+        éteint d\'elle-même. L\'OMS conseille d\'appeler votre
+        médecin traitant si vous avez une toux sèche.</string>
+    <string name="suivre">Suivre</string>
+    <string name="mal_de_gorge">Une infection à coronavirus peut entraîner un mal de gorge comme des angines.</string>
+    <string name="fievre">Parmi les premiers signes du coronavirus qui ont été évoqués : la fièvre. La fièvre est effectivement une réponse de l\'organisme qui se bat contre une infection. Elle est présente chez certains malades du Covid-19, sans être forcément très élevée.</string>
+</resources>

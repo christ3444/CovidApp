@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context=".KnowMoreActivity">
+
+    <androidx.cardview.widget.CardView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:layout_margin="10dp"
+        app:cardElevation="5dp"
+        app:cardCornerRadius="5dp"
+        android:background="@drawable/icon_bg">
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="10dp"
+            android:background="@color/colorWhite">
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical"
+                >
+                <TextView
+                    android:id="@+id/txtsymptomes"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Toux seche"
+                    android:textAlignment="center"
+                    android:layout_marginLeft="10dp"
+                    android:textSize="15sp"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/adamina"
+                    android:textColor="@color/colorDarkblue" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/toux"
+                    android:layout_marginLeft="10dp"
+                    android:textSize="12sp"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/adamina"
+                    android:textColor="@color/colorPrimary" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Mal de garge"
+                    android:textAlignment="center"
+                    android:layout_marginLeft="10dp"
+                    android:textSize="15sp"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/adamina"
+                    android:textColor="@color/colorDarkblue" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/mal_de_gorge"
+                    android:layout_marginLeft="10dp"
+                    android:textSize="12sp"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/adamina"
+                    android:textColor="@color/colorPrimary" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Fievre"
+                    android:textAlignment="center"
+                    android:layout_marginLeft="10dp"
+                    android:textSize="15sp"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/adamina"
+                    android:textColor="@color/colorDarkblue" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/fievre"
+                    android:layout_marginLeft="10dp"
+                    android:textSize="12sp"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/adamina"
+                    android:textColor="@color/colorPrimary" />
+                <Button
+                    android:id="@+id/btnLearnMore"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Lire plus"
+                    android:layout_marginTop="10dp"
+                    android:textAllCaps="false"
+                    android:paddingRight="20dp"
+                    android:paddingLeft="20dp"
+                    android:textSize="15dp"
+                    android:fontFamily="@font/adamina"
+                    android:background="@color/colorDarkblue"
+                    android:textColor="@color/colorWhite"
+                    />
+
+                <Button
+                    android:id="@+id/btncarte"
+                    android:layout_width="wrap_content"
+                    android:layout_height="28dp"
+                    android:background="@color/colorGray"
+                    android:fontFamily="@font/adamina"
+                    android:text="Afficher la carte"
+                    android:textAllCaps="false"
+                    android:layout_marginTop="20dp"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>

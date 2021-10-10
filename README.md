@@ -4,17 +4,9 @@
 ```
 
 > son objectif principal est d'informer ses utilisateurs sur l'évolution
-```
-
 > du coronavirus
-```
-
 > mesures de précaution
-```
-
 > zones à risques
-```
-
 > villes confinées etc...
 ```
 
